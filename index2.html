@@ -1,0 +1,79 @@
+<!-- Dedicated to God the Father -->
+<!-- All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 -->
+<!-- https://github.com/ChristopherTopalian -->
+<!-- https://github.com/ChristopherAndrewTopalian -->
+<!-- index.html -->
+
+<html>
+<head>
+<title> index </title>
+
+<style>
+
+body
+{
+    background-color: rgb(40, 40, 40);
+    background-image: url('src/media/textures/code.webp');
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.buttonLauncher
+{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(5, 5, 84);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    line-height: 30px;
+}
+
+.buttonLauncher:hover
+{
+    border-color: rgb(0, 255, 255);
+    color: rgb(0, 255, 255);
+    cursor: pointer;
+}
+
+.buttonLauncher:active
+{
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+</style>
+
+<script>
+
+function createWindow()
+{
+    let newWindow = window.open("CATopalian_JavaScript_Password_Generator.html", "", "left = 10 top = 10 width = 450, height = 255", true);
+
+    // wait a specified duration and then remove the launcher
+    setTimeout(function()
+    {
+        window.close();
+    }, 500);
+}
+
+</script>
+
+</head>
+
+<body>
+
+<button onclick = "createWindow();" class = 'buttonLauncher'> Password Generator </button>
+
+</body>
+
+</html>
+
