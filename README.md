@@ -1,6 +1,8 @@
 # CATopalian JavaScript Password Generator
 A JavaScript application that creates passwords of a specified length and can include/exclude any symbols for the generated password.  
 
+USE APP: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Password_Generator/CATopalian_JavaScript_Password_Generator.html
+
 If you enjoy my apps and tutorials please consider buying me a coffee at [paypal.me/keystonermarch](https://www.paypal.com/paypalme/keystonermarch)  
 
 ---
