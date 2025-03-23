@@ -4,6 +4,8 @@ function whenLoaded()
 {
     makeInterface();
 
+    makeTitleOfApp();
+
     generateRandomPassword(symbolsArray);
 }
 
